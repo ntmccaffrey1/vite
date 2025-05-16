@@ -1,0 +1,7 @@
+.MissionControl-container {
+    display: flex;
+    border: 2px solid #fff;
+    padding: 25px;
+    margin: 25px 0;
+    justify-content: space-between;
+}
