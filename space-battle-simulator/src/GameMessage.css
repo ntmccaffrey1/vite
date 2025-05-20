@@ -1,0 +1,11 @@
+.GameMessage {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+}
