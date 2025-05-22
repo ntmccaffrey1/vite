@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap");
+
+body {
+    background: darkgreen;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
