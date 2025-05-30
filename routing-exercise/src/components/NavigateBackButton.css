@@ -1,0 +1,13 @@
+.NavigateBackButton {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+.NavigateBackButton button {
+    border-color: green;
+}
+
+.NavigateBackButton button:hover {
+    background-color: green;
+}
