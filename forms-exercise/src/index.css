@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "IBM Plex Mono", sans-serif;
+  font-weight: 100;
+  padding: 25px;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+button {
+    display: flex;
+    background: transparent;
+    border: 2px solid;
+    color: inherit;
+    font-family: inherit;
+    padding: 10px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+    font-size: inherit;
+}

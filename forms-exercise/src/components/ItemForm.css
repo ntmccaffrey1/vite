@@ -1,0 +1,56 @@
+.ItemForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.ItemForm form input, .ItemForm form textarea {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    color: #fff;
+}
+
+.ItemForm form input:focus, .ItemForm form textarea:focus {
+    border: 2px solid;
+    border-radius: 0;
+    outline: none;
+}
+
+.ItemForm form input[type="checkbox"] {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.ItemForm form label {
+    font-size: inherit;
+    font-weight: 100;
+    border: 2px solid;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.ItemForm-button {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.ItemForm form button {
+    border-color: green;
+}
+
+.ItemForm form button:hover {
+    background: green;
+}
+
+.ItemForm form input.error, .ItemForm form label.error, .ItemForm form textarea.error {
+  border: 2px solid red;
+}
