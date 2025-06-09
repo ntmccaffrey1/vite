@@ -1,0 +1,45 @@
+.Spacecrafts__card {
+    border: 2px solid;
+    padding: 25px;
+}
+
+.Spacecrafts__card--inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Spacecrafts__card--inner-left {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.Spacecrafts__card--inner-img span {
+    font-size: 2rem;
+}
+
+.Spacecrafts__card--inner-content {
+    gap: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Spacecrafts__card--inner-img {
+    border: 2px dotted #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.Spacecrafts__card--inner-img img {
+    width: 100px;
+}    
+
+.Spacecrafts__card--inner-img:hover {
+    border-color: green;
+}

@@ -1,0 +1,36 @@
+.Error {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Error__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    border: 2px solid red;
+    background: #000;
+    height: 50px;
+    width: 200px;
+    margin: 0 auto;
+    gap: 1rem;
+    text-align: center;
+    z-index: 10;
+}
+
+.error-overlay {
+    position: fixed;
+    min-height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}

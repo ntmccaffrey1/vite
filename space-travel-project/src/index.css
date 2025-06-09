@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    background: #000;
+    color: #fff;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.card-content {
+    border: 2px dotted;
+    padding: 25px;
+    text-align: justify;
+}
+
+.card-emoji {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background: transparent;
+    border: 2px solid;
+    color: #fff;
+    font-family: inherit;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    border-color: green;
+}
+
+.error {
+    color: red;
+}

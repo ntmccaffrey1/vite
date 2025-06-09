@@ -1,0 +1,61 @@
+.AppLayout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.AppLayout-container {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.AppLayout header {
+    padding: 50px;
+    text-align: center;
+    color: inherit;
+}
+
+.AppLayout header nav {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;;
+}
+
+.AppLayout header nav a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 0;
+    transition: .3s;
+}
+
+.AppLayout header nav a:hover {
+    color: green;
+}    
+
+.AppLayout header nav a.active {
+    border-bottom: 2px solid #fff;
+}
+
+.AppLayout header nav a .AppLayout-navEmoji {
+    margin-right: 5px;
+}
+
+.AppLayout main {
+    flex: 1;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.AppLayout footer .AppLayout-footerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
